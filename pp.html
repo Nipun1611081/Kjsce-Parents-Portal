@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title> KJSCE Parents' Portal </title>
+<title> : KJSCE Parents' Portal :: </title>
 <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -13,24 +13,32 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<!-- W3schools CSS compatibility -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <style>
 #change
 {
   color: white;
+  font-family: 'Verdana', sans-serif;
 }
 #change:hover
 {
   background-color: #830600;
 }
- #navbarDropdownMenuLink
- {
-  color: white;
- }
- #navbarDropdownMenuLink:hover
- {
+#change:focus
+{
   background-color: #830600;
- }
- .tree {
+}
+#logo_div div span {
+    color: #A21F24;
+    font: normal 26px/28px Arial;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.tree {
   height:200px;
   overflow-y: scroll;
 }
@@ -38,52 +46,68 @@
 
   height:317px;
 }
-
 #form1 {
-    padding-top: 50px;
+    padding-top: 20px;
+}
+#footer {
+    background: #A00902;
+    height: 50px;
+    font-family: 'Verdana', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+}
 }
 </style>
 </head>
-<body>
+<body style="background-color: #D3D3D3">
 <!--header-->
+<div class="container-fluid" style="background-color: #fffff0 ">
+  <div id="logo_div" style="margin-top:10px; margin-bottom: 10px;">
+    <div>
+      <img src=".\images\download.png" alt="KJSCE" height="70" width="70" style="margin-left: 5px;">
+      <span style="margin-left: 10px;">Somaiya Vidyavihar</span>
+      <img src=".\images\trust.png" alt="Trust" height="60" width="60" style="float: right;">
+    </div>
+  </div>
+  <!--end of header-->
+  <!--navbar-->
   <nav class="navbar navbar-light" style="background-color: #A00902 ;">
-    <div class="container-fluid">
-      <div class= "navbar-header">
-        <button type= "button" class="navbar-toggle" data-toggle= "collapse" data-target= "#bs-safar-navbar-collapse-1">
-          <span class= "sr-only"> Toggle navigation </span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-         </button>
-      <a class="navbar-brand" href="#" id="change"> Safar </a> 
+  <div class="container-fluid">
+    <div class= "navbar-header">
+      <button type= "button" class="navbar-toggle" data-toggle= "collapse" data-target= "#bs-safar-navbar-collapse-1">
+        <span class= "sr-only"> Toggle navigation </span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="change"> KJSCE Parents' Portal </a> 
     </div>
   <div class= "collapse navbar-collapse navbar-right" id="bs-safar-navbar-collapse-1">
-    <ul class= "nav navbar-nav">
-      <li> <a href="#"  id="change"> Home </a> </li>
-      <li> <a href="#"  id="change"> Log-in </a> </li>
-      <li> <a href="#"  id="change">  Contact Us </a> </li>
-       <li class="dropdown">
-        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"> <b class= "caret"></b>
-          Help
+    <ul class= "nav navbar-nav" >
+      <li><a href="#" id="change"> HOME </a></li>
+      <li><a href="#" id="change"> CONTACT US </a> </li>
+      <li><a href="#" id="change"> THE TEAM </a> </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" href="#" id="change" role="button" data-toggle="dropdown">HELP&nbsp;<b class= "caret"></b>
         </a>
         <ul class="dropdown-menu" style="background-color: #A00902 ;">
           <li><a class="dropdown-item" href="#"  id="change">Action</a></li>
           <li><a class="dropdown-item" href="#"  id="change">Another action</a></li>
           <li><a class="dropdown-item" href="#"  id="change">Something else here</a></li>
-      </ul>
+        </ul>
       </li>
     </ul>
-    </div>  
+  </div>  
   </div>
 </nav>
-
+<marquee style="color:rgb(17, 51, 106); font-size: 15px; font-family: verdana;"><strong>WELCOME TO KJSCE PARENTS' PORTAL!</strong></marquee>
 <!--end of navbar-->
 <div class= "container-fluid">
   <div class= "jumbotron col-md-8">
-      <div class="panel panel-info">
+    <div class="panel panel-primary">
       <div class="panel-heading">General instructions for using KJSCE Parents' Portal</div>
-      <div class="panel-body tree">
-        <ul>
+        <div class="panel-body tree">
+          <ul>
           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis vulputate diam, et congue nibh lacinia vel. Pellentesque tempus nunc. </li>
           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis vulputate diam, et congue nibh lacinia vel. Pellentesque tempus nunc. </li>
           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis vulputate diam, et congue nibh lacinia vel. Pellentesque tempus nunc. </li>
@@ -91,54 +115,51 @@
           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis vulputate diam, et congue nibh lacinia vel. Pellentesque tempus nunc. </li>
           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis vulputate diam, et congue nibh lacinia vel. Pellentesque tempus nunc. </li>
           <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis vulputate diam, et congue nibh lacinia vel. Pellentesque tempus nunc. </li>
-         </ul> 
-      </div>
+          </ul> 
+        </div>
     </div>
-   </div>
-   <div class= "col-md-4">
-     <div class="panel panel-success">
-      <div class="panel-heading">Log-in</div>
-      <div class="panel-body log">
-        <form id="form1">
-    <div class="form-group has-feedback">
-    <label for="username">Username:</label>
-    <input type="text" class="form-control" id= "username" placeholder="Username">
-    <i class="glyphicon glyphicon-user form-control-feedback"></i>
-    <div class="form-group has-feedback">
-    <label for="password">Password:</label>
-    <input type="text" class="form-control" id= "password" placeholder="Password">
-    <i class="glyphicon glyphicon-lock form-control-feedback"></i>
+  </div>
+  <div class= "col-md-4">
+    <div class="panel panel-success">
+      <div class="panel-heading"><b>Login</b></div>
+        <div class="panel-body log">
+          <form id="form1">
+            <div class="form-group has-feedback">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id= "username" placeholder="Username">
+            <i class="glyphicon glyphicon-user form-control-feedback"></i>
+            </div>
+            <div class="form-group has-feedback">
+            <label for="password">Password:</label>
+            <input type="text" class="form-control" id= "password" placeholder="Password">
+            <i class="glyphicon glyphicon-lock form-control-feedback"></i>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-bottom: 15px;">Submit</button>
+            <a href="#"><h5><b><i class="glyphicon glyphicon-lock"></i>&nbsp;<u>Forgot Password</u></b></h5></a>  
+          </form>
+        </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-    <a href="#"><h5>Forgot Password</h5></a> 
-
-  </form>
-</div>
-</div>
-</div>
+  </div>
 </div> 
 <div class="containe-fluid">
-<div class="col-md-12">
-<div class="panel panel-info">
+  <div class="col-md-12">
+    <div class="panel panel-primary">
       <div class="panel-heading">Important Links</div>
-      <div class="panel-body notice">
-      <a href="#"><h5> Link1 </h5></a>
-      <a href="#"><h5> Link2 </h5></a>
-      <a href="#"><h5> Link3 </h5></a>
-      <a href="#"><h5> Link4 </h5></a>
-      </div>
+        <div class="panel-body notice">
+          <a href="#"><h5> Link1 </h5></a>
+          <a href="#"><h5> Link2 </h5></a>
+          <a href="#"><h5> Link3 </h5></a>
+          <a href="#"><h5> Link4 </h5></a>
+        </div>
     </div>
-   </div>
+  </div>
 </div>
-
-   
-
+</div>
 <!-- footer-->
-
-
-
+<footer id="footer">
+    <span class="pull-right"><strong>Version</strong> 1.0.0</span>
+    <p><b>Copyright&nbsp;</b>&copy; Somaiya Vidyavihar | Design and Development. All Rights Reserved.</p>
+</footer>
 <!-- footer ends -->   
- 
-
 </body>
 </html>
